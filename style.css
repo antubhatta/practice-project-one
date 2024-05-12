@@ -98,7 +98,7 @@ background-color: rgb(255, 248, 243);
 margin-top: 120px;
 margin-bottom: 120px;
 }
-.about-title{
+.section-title{
    
     margin-bottom: 20px;
     color: rgb(24, 24, 24);
@@ -106,7 +106,7 @@ font-size: 35px;
 font-weight: 700;
 text-align: center;
 }
-.about-desc{
+.section-desc{
     text-align: center;
     color: rgb(117, 117, 117);
 font-size: 18px;
@@ -134,4 +134,71 @@ margin-bottom: -5px;
     font-size: 20px;
 font-weight: 700;
 text-align: center;
+}
+.skill-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+   
+
+}
+.skill-container{
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-right: 24px;
+    padding: 20px;
+}
+.reseume-section{
+    /* margin-top: 80px; */
+}
+main section{
+    margin-top: 100px;
+}
+.column-title{
+    color: rgb(71, 71, 71);
+font-size: 30px;
+font-weight: 700;
+}
+.reseume-container{
+    margin-top: 90px;
+}
+.reseume-item-title{
+    color: rgb(71, 71, 71);
+font-size: 25px;
+font-weight: 700;
+margin-bottom: -20px;
+}
+.reseume-item-subtitle{
+    color: rgb(117, 117, 117);
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+
+}
+.reseume-item-desc{
+    color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+}
+.reseume-container{
+    display: flex;
+    gap: 50px;
+}
+.btn-reseume {
+  
+    background-color: rgb(253, 110, 10);
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+font-weight: 700;
+
+}
+.download-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
