@@ -1,0 +1,137 @@
+/* common shared styles */
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body {
+    font-family: 'Leto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+font-weight: 700;
+   
+}
+.nav-title{
+    width: 121px;
+height: 61px;
+font-size: 45px;
+font-weight: 800;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+   
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* header */
+.header{
+    background-color: rgb(255, 248, 243);
+}
+.banner{
+    padding: 20px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+}
+.banner img{
+    width: 500px;
+}
+.banner-greetings{
+    color: rgb(71, 71, 71);
+font-size: 45px;
+font-weight: 600;
+/* margin-bottom: 5px; */
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+    font-size: 67px;
+    /* margin-bottom: 5px; */
+}
+.banner-content{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 500px;
+    /* margin-bottom: 5px; */
+}
+.btn-download{
+    color: white;
+    margin-right: 40px;
+}
+.btn-contact {
+    border: 1px solid rgb(253, 110, 10);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+font-weight: 700;
+}
+/* about */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+background-color: rgb(255, 248, 243);
+margin-top: 120px;
+margin-bottom: 120px;
+}
+.about-title{
+   
+    margin-bottom: 20px;
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+}
+.about-desc{
+    text-align: center;
+    color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 20px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-profile-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-info h4{
+    color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+margin-bottom: -5px;
+}
+.about-info p{
+    color: black;
+    font-size: 20px;
+font-weight: 700;
+text-align: center;
+}
