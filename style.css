@@ -202,3 +202,64 @@ font-weight: 700;
     margin-top: 50px;
     margin-bottom: 100px;
 }
+/* footer */
+footer{
+    background-color: rgb(255, 248, 243);
+    padding: 120px;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+
+.footer-title{
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.footer-desc{
+    color: rgb(71, 71, 71);
+font-size: 16px;
+font-weight: 400;
+}
+.name{
+    border-radius: 5px;
+/* White Color */
+background: rgb(255, 255, 255);
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 30px;
+width: 463px;
+margin-bottom: 24px;
+border: 0;
+}
+.email{
+    border-radius: 5px;
+    /* White Color */
+    background: rgb(255, 255, 255);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    width: 463px;
+    margin-bottom: 24px;
+    border: 0;
+}
+.message{
+    border-radius: 5px;
+    /* White Color */
+    background: rgb(255, 255, 255);
+    padding-top: 18px;
+    padding-bottom: 134px;
+    padding-left: 30px;
+    width: 463px;
+    margin-bottom: 24px;
+    border: 0;
+}
+.icons{
+    display: flex;
+    gap: 5px;
+    margin-top: 30px;
+}
